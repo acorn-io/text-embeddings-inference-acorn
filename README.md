@@ -2,6 +2,7 @@
 
 # Text Embeddings Inference Acorn
 
+<a href="https://beta.acorn.io/run/index.docker.io/sanjay920/text-embeddings-inference:cpu?ref=sanjay920&name=Text+Embeddings+Inference"><img src="https://beta.acorn.io/v1-ui/run/badge?image=index.docker.io+sanjay920+text-embeddings-inference:cpu&ref=sanjay920"></a>
 <a href="https://github.com/huggingface/text-embeddings-inference">
   <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/huggingface/text-embeddings-inference?style=flat&logo=github&label=GH Repo">
 </a>
