@@ -29,7 +29,7 @@ You can deploy the inference server on the Acorn SaaS platform with the followin
 1. Login into the [Acorn SaaS Platform](https://beta.acorn.io/) using the Github Sign-In option with your Github user.
 2. Select the "Create Acorn" option.
 3. Choose the source for deploying your Acorns
-  * Select "From Acorn Image" to deploy the sample Flask Application and select its Image
+  * Select "From Acorn Image" to deploy the inference server and select its Image
   * Provide any random name such as `embedding-inference-server` and keeping Project's default Region, type in the below Acorn image and choose Create 
     ```bash
     docker.io/sanjay920/text-embeddings-inference:cpu
