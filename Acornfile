@@ -1,0 +1,17 @@
+name:        "Text Embeddings Inference"
+description: "Hugging Face's blazing fast inference solution for text embeddings models."
+readme:      "./README_ACORNFILE.md"
+
+containers: {
+  app: {
+    image: "ghcr.io/huggingface/text-embeddings-inference:cpu-latest"
+    ports: publish: "80/http"
+    env: {
+      "MODEL_ID": args.model_id
+    }
+  }
+}
+
+args: {
+    "model_id": "intfloat/e5-small-v2"
+}
